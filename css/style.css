@@ -1,0 +1,146 @@
+*:focus{
+  outline: red dotted 3px;
+  outline-offset: 3px;
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* navbar */
+.navbar{
+  padding-top: 24px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.navbar-list{
+  display: flex;
+  align-items: center;
+}
+.nav-item{
+  margin-right: 30px;
+}
+.nav-item:last-child{
+  margin-right: 0;
+}
+.nav-link{
+  transition: color 0.4s ease;
+}
+.nav-link:hover{
+  color: blueviolet;
+}
+#main-form{
+  /* display: flex;
+  justify-content: center;
+  width: 500px;
+  height: 300px;
+  box-shadow: 0 0 18px 0 #0000002c; */
+}
+
+/* end navbar */
+.forma-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 400px;
+  height: 400px;
+  box-shadow: 0 0 18px 0 #0000002c;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+.user{
+  margin: 0 auto;
+  border-radius: 50%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+.label{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+label{
+  margin-bottom: 10px;
+}
+input[type=text], input[type=password]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+.buttons{
+  display: flex;
+  justify-content: space-between;
+}
+.btn{
+  border: 0;
+  display: inline-block;
+  width: 100%;
+  margin-right: 10px;
+  padding: 10px ;
+  margin-bottom: 10px;
+  cursor: pointer;
+  box-shadow: 0 0 18px 0 #0000002c;
+  border-radius: 10px;
+  background-color: #fff;
+  transition: box-shadow 0.4s ease;
+}
+.btn:hover{
+  box-shadow: 0 0 5px 0 #0000002c;
+}
+.button{
+  border: 0;
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 0 18px 0 #0000002c;
+  transition: box-shadow 0.4s ease;
+}
+.button:hover{
+  box-shadow: 0 0 5px 0 #0000002c;
+}
+/* General */
+body{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+}
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+
+}
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+li{
+  margin: 0;
+  padding: 0;
+}
+a{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  text-decoration: none;
+  color: #212121;
+  margin: 0;
+  padding: 0;
+}
+img{
+  display: block;
+}
+
+
+
+
+/* End General */
