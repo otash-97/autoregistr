@@ -50,6 +50,9 @@
   padding: 30px;
   margin-bottom: 30px;
 }
+.forma-container:hover{
+  box-shadow: 0 0 5px 0 #0000002c;
+}
 .user{
   margin: 0 auto;
   border-radius: 50%;
