@@ -49,6 +49,7 @@
   box-shadow: 0 0 18px 0 #0000002c;
   padding: 30px;
   margin-bottom: 30px;
+  border-radius: 12px;
 }
 .forma-container:hover{
   box-shadow: 0 0 5px 0 #0000002c;
